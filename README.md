@@ -12,11 +12,11 @@ This lab demonstrate how to identify, troubleshoot, and fix IP addressing miscon
 
 ## 1. Initial Addressing table.
 
-|   Device   |  IP Address        |   Subnet Mask     |
-|   :---     |  :---              |   :---            |
-|   **PC1**  |  `192.168.20.10`   |   `255.255.255.0` |
-|   **PC2**  |  `192.168.20.11`   |   `255.255.255.0` |
-|   **PC3**  |  `192.168.30.12`   |   `255.255.255.0` |
+|   Device   |  Interface  |   IP Address      |  Subnet Mask     |
+|   :---     |  :---       |   :---            |  :---            |
+|   **PC1**  |  ethernet0  |   `192.168.20.10` |  `255.255.255.0` |
+|   **PC2**  |  ethernet0  |   `192.168.20.11` |  `255.255.255.0` |
+|   **PC3**  |  ethernet0  |   `192.168.30.12` |  `255.255.255.0` |
 
 ### Network topology.
 ![Network Topology](https://github.com/JuniorNetworkTech165/Troubleshoot-incorrect-IP-addressing/blob/main/Network%20topology.png?raw=true)
@@ -41,11 +41,12 @@ This lab demonstrate how to identify, troubleshoot, and fix IP addressing miscon
 
 ### Corrected Addressing Table.
 
-|  Device   |  IP Address      |  Subnet Mask     |  Status   |
-|  :---     |  :---            |  :---            |  :---     |
-|  **PC1**  |  `192.168.20.10` |  `255.255.255.0` |  Active   |
-|  **PC2**  |  `192.168.20.11` |  `255.255.255.0` |  Active   |
-|  **PC3**  |  `192.168.20.12` |  `255.255.255.0` | **Fixed** |
+|  Device   |  Interface |  IP Address      |  Subnet Mask       |  Status   |
+|  :---     |  :---      |  :---            |  :---              |  :---     |
+|  **PC1**  |  ethernet0 |  `192.168.20.10` |  `255.255.255.0`   |  Active   |
+|  **PC2**  |  ethernet0 |  `192.168.20.11` |  `255.255.255.0`   |  Active   |
+|  **PC3**  |  ethernet0 |  `192.168.20.12` |  `255.255.255.0`   | **Fixed** |
+
 
 ---
 
