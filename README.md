@@ -19,7 +19,7 @@ This lab demonstrate how to identify, troubleshoot, and fix IP addressing miscon
 |   **PC3**  |  `192.168.30.12`   |   `255.255.255.0` |
 
 ### Network topology.
-![Network Topology](./Network-topology.png)
+![Network Topology](https://github.com/JuniorNetworkTech165/Troubleshoot-incorrect-IP-addressing/blob/main/Network%20topology.png?raw=true)
 
 ---
 
