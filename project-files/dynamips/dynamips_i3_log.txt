@@ -1,0 +1,6 @@
+Sep 22 11:07:58.121 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Sep 22 11:07:58.123 HYPERVISOR: Started on IP = localhost, TCP port = 46574.
+Sep 22 11:07:58.569 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 22 11:07:58.570 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\boitu\GNS3\projects\Troubleshoot incorrect IP addressing.\project-files\dynamips 
+Sep 22 11:08:14.743 HYPERVISOR: Stopped.
+Sep 22 11:08:14.743 GENERAL: reset done.

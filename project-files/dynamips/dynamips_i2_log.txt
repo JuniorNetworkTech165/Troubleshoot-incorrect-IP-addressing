@@ -1,0 +1,15 @@
+Sep 22 11:43:13.493 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Sep 22 11:43:13.494 HYPERVISOR: Started on IP = localhost, TCP port = 16701.
+Sep 22 11:43:13.947 HYPERVISOR: exec_cmd: hypervisor version 
+Sep 22 11:43:13.948 HYPERVISOR: exec_cmd: hypervisor working_dir C:\Users\boitu\OneDrive\Documents\GitHub\Troubleshoot incorrect IP addressing\project-files\dynamips 
+Sep 22 11:43:13.948 GENERAL: working_dir=C:\Users\boitu\OneDrive\Documents\GitHub\Troubleshoot incorrect IP addressing\project-files\dynamips
+Sep 22 11:43:13.948 HYPERVISOR: exec_cmd: ethsw create Switch1 
+Sep 22 11:43:13.982 HYPERVISOR: exec_cmd: nio create_udp udp-000e27cc-6a4a-4109-bb99-e601f4cc98d2 10013 127.0.0.1 10012 
+Sep 22 11:43:13.983 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-000e27cc-6a4a-4109-bb99-e601f4cc98d2 
+Sep 22 11:43:13.993 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-000e27cc-6a4a-4109-bb99-e601f4cc98d2 1 
+Sep 22 11:43:14.025 HYPERVISOR: exec_cmd: nio create_udp udp-879cb174-23e9-46cc-9251-aca8d7e927d6 10015 127.0.0.1 10014 
+Sep 22 11:43:14.026 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-879cb174-23e9-46cc-9251-aca8d7e927d6 
+Sep 22 11:43:14.053 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-879cb174-23e9-46cc-9251-aca8d7e927d6 1 
+Sep 22 11:43:14.096 HYPERVISOR: exec_cmd: nio create_udp udp-6298ea13-5e4c-41de-9063-772cb2d16108 10017 127.0.0.1 10016 
+Sep 22 11:43:14.097 HYPERVISOR: exec_cmd: ethsw add_nio Switch1 udp-6298ea13-5e4c-41de-9063-772cb2d16108 
+Sep 22 11:43:14.114 HYPERVISOR: exec_cmd: ethsw set_access_port Switch1 udp-6298ea13-5e4c-41de-9063-772cb2d16108 1 
